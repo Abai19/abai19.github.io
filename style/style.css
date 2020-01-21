@@ -1,0 +1,324 @@
+body{
+font-family: 'Roboto Condensed', sans-serif;
+color:black;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.container1{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.navbar{
+list-style: none;
+    padding: 0;
+}
+
+.navbar li{
+  display: inline-block;
+  margin-left: 20px;
+  color:black;
+}
+.navbar a {
+  text-decoration: none;
+  color:black;
+}
+.rightmenu{
+  float:right;
+  margin-right: 15px;
+}
+.rightmenu p {
+  margin: 0;
+}
+.navbar button{
+  background: none;
+  border: 1px solid #FC4727;
+  color: red;
+  padding: 10px;
+bottom: 5px;
+position: relative;
+bottom: 8px;
+}
+a:hover {
+  color:red;
+  border-bottom: 1px solid red;
+}
+.presentation{
+  background: url("dimon.png")no-repeat;
+  background-position: right;
+  background-size:450px;
+  height: 400px;
+
+}
+.info{
+  top: 100px;
+position: relative;
+left: 30px;
+}
+.info button{
+  background: #FC4727;
+  color:white;
+  padding: 10px;
+  border:none;
+  width: 160px;
+}
+.box{
+  text-align: center;
+  width: 19%;
+  display: inline-block;
+}
+.third{
+text-align: center;
+}
+.third button{
+  background: #FC4727;
+  color:white;
+  padding: 10px;
+  border:none;
+  width: 160px;
+  display: block;
+margin: 0 auto;
+margin-top: 40px;
+}
+.fourth{
+  background-color: #F2F2F2;
+  text-align: center;
+
+}
+.exmpl{
+  text-align: center;
+  width: 22%;
+  display: inline-block;
+  padding: 23px;
+}
+.exmpl img{
+  width: 214px;
+  height:230px;
+}
+.fourth button{
+  background: #FC4727;
+  color:white;
+  padding: 10px;
+  border:none;
+  width: 160px;
+  display: block;
+margin: 0 auto;
+}
+.fifth{
+  background: #FC4727;
+  margin-top: 42px;
+}
+.leftbox{
+  display: inline-block;
+  color:#A9A9A9;
+
+}
+.middlebox{
+  display: inline-block;
+
+
+}
+.phone{
+  display: block;
+  background: url("phone.png") no-repeat;
+  background-position: left;
+  background-size: 20px;
+  width: 145px;
+  height: 50px
+}
+
+.mail{
+  display: block;
+  background: url("mail.png") no-repeat;
+  background-position: left;
+  background-size: 20px;
+  width: 178px;
+  height: 50px
+}
+.rightbox{
+  display: inline-block;
+  float:right;
+}
+.rightbox button{
+  background: none;
+  border: 1px solid #FC4727;
+  color: red;
+  padding: 10px;
+bottom: 5px;
+position: relative;
+bottom: 8px;
+width: 175px;
+}
+.rightbox img{
+  width: 177px;
+  height: 30px;
+  display:flex;
+}
+.last{
+  width: 100%;
+  background: #0A0A2A;
+  height: 44px;
+  margin-top: 50px;
+}
+.last p {
+  color:white;
+  text-align: center;
+  padding: 13px;
+}
+@media (min-width:1380px){
+  .container{
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px){
+  .navbar li {
+    display: block;
+    width: 100%;
+text-align: center;
+font-size: 55px;
+  }
+  .navbar li button{
+    display: none;
+  }
+  .rightmenu p{
+      margin-left: 68px;
+  }
+  .info p{
+    font-size:45px !important;
+  }
+  .info button{
+    width: 200px;
+    font-size:25px;
+  }
+  .presentation{
+    background-size: 390px;
+  }
+  .third p {
+    font-size: 45px !important;
+  }
+  .box{
+    display: inline-block;
+    margin: 0 auto;
+    width: 49%;
+  }
+  .box p {
+    text-align: center !important;
+    font-size: 30px !important;
+
+  }
+  .fourth p {
+      font-size: 45px !important;
+  }
+  .exmpl{
+    display:inline-block;
+    width: 42%;
+    margin: 0 auto;
+  }
+  .exmpl p {
+    font-size: 25px !important;
+  }
+  .fifth {
+    display: block;
+  }
+  .fifth p {
+    text-align: left;
+    font-size: 25px !important;
+  }
+  .fifth div{
+    margin-left: 10px !important;
+  }
+.container1{
+  flex-direction: column;
+  margin:0 auto;
+  justify-content: center;
+}
+.leftbox{
+  display: none;
+}
+.rightbox{
+  margin: 0 auto;
+}
+.middlebox{
+    margin: 0 auto;
+}
+}
+@media (max-width: 600px){
+  .navbar li {
+    display: block;
+    width: 100%;
+text-align: center;
+font-size: 35px;
+  }
+  .navbar li button{
+    display: none;
+  }
+  .rightmenu p{
+      margin-left: 68px;
+  }
+  .info p{
+    font-size:25px !important;
+  }
+  .info button{
+    width: 100px;
+    font-size:10px;
+  }
+  .presentation{
+    background-size: 290px;
+  }
+  .third p {
+    font-size: 25px !important;
+  }
+  .box{
+    display: block;
+    margin: 0 auto;
+    width: 242px;
+  }
+  .box p {
+    text-align: center !important;
+    font-size: 15px !important;
+
+  }
+  .fourth p {
+      font-size: 25px !important;
+  }
+  .exmpl{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .exmpl p {
+    font-size: 20px !important;
+  }
+  .fourth{
+
+  }
+  .fifth {
+    display: block;
+  }
+  .fifth p {
+    text-align: left;
+    font-size: 20px !important;
+  }
+  .fifth div{
+    margin-left: 5px !important;
+  }
+.container1{
+  flex-direction: column;
+  margin:0 auto;
+  justify-content: center;
+}
+.leftbox{
+  display: none;
+}
+.rightbox{
+  margin: 0 auto;
+}
+.middlebox{
+    margin: 0 auto;
+}
+}
