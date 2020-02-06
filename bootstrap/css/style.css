@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Lato;
+  src:url('Lato-Black.ttf')
+}
+.nav-item {
+  color:#FFFFFF;
+}
+.mainbackground::before{
+  position: absolute!important;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  content: "";
+  background: rgba(252,15,-20,0.5);
+}
+.bg-light{
+  background-color:none!important;
+}
+.navbar-light .navbar-brand{
+  color:white;
+}
+.btnnav{
+  border-color: white;
+  color:white;
+}
+.navbar-light .navbar-nav .nav-link{
+  color:white;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.maincol{
+  text-align: center;
+  color:white;
+  padding: 151px;
+}
+.textmain {
+  font-size: 55px;
+}
+.btnmain{
+  background: white;
+  border-radius: 5px;
+  color:pink;
+}
+.imgxmple{
+  text-align: center;
+}
+.featuresblock{
+  text-align: center;
+  position: relative;
+}
+.techblock{
+    text-align: center;
+}
+.form-group{
+  display: inline-flex;
+}
+.form-control{
+  margin: 7px;
+}
+.lastbtn{
+  background: #D52047;
+  color:white;
+  margin: 7px;
+}
+.text{
+  width: 64%;
+margin: 0 auto;
+}
