@@ -5,8 +5,10 @@
 .nav-item {
   color:#FFFFFF;
 }
+
+/*
 .mainbackground::before{
-  position: absolute!important;
+  position: relative!important;
   top:0;
   left:0;
   bottom: 0;
@@ -14,7 +16,7 @@
   margin: auto;
   content: "";
   background: rgba(252,15,-20,0.5);
-}
+}*/
 .bg-light{
   background-color:none!important;
 }
@@ -72,6 +74,18 @@ margin: 0 auto;
 }
 @media (max-width:1024px){
   .textmain{
-    font-size: 20px;
+    font-size: 30px;
+  }
+  .maincol{
+    padding: 80px;
+  }
+  .stayfocused{
+    padding-top: 48px!important;
+    padding-bottom: 47px!important;
+    padding-left: 0px!important;
+  }
+  .imgstay{
+    padding: 0px!important;
+    text-align: center!important;
   }
 }
