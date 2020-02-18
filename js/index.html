@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p style="Font-size:20px;text-align:center;"><b>EXERCISE 1</b></p>
+<p>for (var i = 0; i < 10; i++) {<br>
+    setTimeout(function() {<br>
+        console.log(i);<br>
+    }<br>
+};<br>
+</p>
+<p>Первое задание не выведет ничего поскольку setTimeout
+  требует параметр временени которого в коде нет. Пример:setTimeout(function(){ alert("Hello"); }, 3000); </p>
+<span style="Font-size:20px;text-align:center;"><b>EXERCISE 2</b></span>
+<p id="time"></p>
+<form id="form1">
+  <span>Введите число:</span>
+<input type="text" id="aText">
+<input type="button" id="aBtn" onclick="aFunc()" value="Запуск">
+</form>
+<span>Введите число факториал которого нужно вычислить</span>
+<input type="text" id="input"><br>
+<input type="button" id="but" value="Вычислить факториал">
+<span>Результат:</span>
+<input type="text" id="output"><br>
+
+<span>Введите два числа</span>
+<input type="text" id="value1" name="value1">
+<input type="text" id="value2" name="value2"><br>
+<input type="text" id="answer" name="answer">
+<button type="button"onclick="largerint()"name="button">Сравнить</button><br>
+<span>Write a simple JavaScript program to join all elements of the following array into a string. </span>
+<input type="text" name="array" id="colors"><br>
+<span>Write a JavaScript function to get the month name from a particular date.
+</span>
+<input  name="month" id="month1" >
+<input  name="month" id="month2" >
+<br>
+
+<input id="upperC">
+<button onclick="upper()">Test</button>
+<input id="upperANS"><br>
+<span>Write a JavaScript program to draw a smile</span><br>
+<canvas id="myDrawing" width="500" height="500"></canvas><br>
+<span style="font-size:25px;"> <b>Task2</b></span>
+<span>С помощью JS необходимо первым трем  элементам задать красный цвет текста, а остальным трем - зеленый.
+</span>
+<div class="element">Element 1</div>
+<div class="element">Element 2</div>
+<div class="element">Element 3</div>
+<div class="element">Element 4</div>
+<div class="element">Element 5</div>
+<div class="element">Element 6</div>
+<ol id="todo-list"></ol>
+<span style="font-size:25px;"> <b>Task4</b></span>
+<article>
+<h3>What is Lorem Ipsum?</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+<h3>Where does it come from?</h3>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. from "The Extremes of Good and Evil" by Cicero</p>
+<h3>Why do we use it?</h3>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+</article>
+
+<span style="font-size:25px;"> <b>Task5</b></span>
+<div id="cart-items">
+	<div id="item1">Milk 1 l.<span class="qty">x 2</span></div>
+	<div id="item2">Cola 1.5 l. <span class="qty">x 1</span></div>
+	<div id="item3">Bread<span class="qty">x 2</span></div>
+	<div id="item4">Cheese<span class="qty">x 1</span></div>
+	<div id="item5">Chocolate bar <span class="qty">x 3</span></div>
+  <button onCLick="task5()">Tap to remove</button>
+    <button onCLick="refresh()">Tap to refresh</button>
+</div>
+<span style="font-size:25px;text-align:center;"> <b>Task6</b></span>
+<ul id="myRecords"></ul>
+<hr>
+<button id="create" onclick="myFunction1()">
+  Create RecordList
+</button>
+  </body>
+  <script src="script.js"></script>
+</html>
