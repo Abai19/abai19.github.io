@@ -1,146 +1,126 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>task 2 project 1</title>
-  </head>
-  <body>
-<nav class="menu">
-  <div class="menu__center">
-  <ul class="menu__center_link">
-    <img src="img/logo.png" alt="logo"class="menu__center_logo">
-    <div style="display:flex">
-      <li class="menu__center__menu_link_1"><a href="#">Home</a></li>
-          <li class="menu__center__menu_link_1"><a href="#">About us</a></li>
-          <li class="menu__center__menu_link_1">  <a href="#">Services</a></li>
-          <li class="menu__center__menu_link_1"><a href="#">Blogs</a></li>
-    </div>
-<button type="button" class="menu__button" value="cerf">GIFT FINDER</button>
-      </ul>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Budgety</title>
+    </head>
+    <body>
+        
+        <div class="top">
+            <div class="budget">
+                <div class="budget__title">
+                    Available Budget in <span class="budget__title--month">%Month%</span>:
+                </div>
+                
+                <div class="budget__value">+ 2,345.64</div>
+                
+                <div class="budget__income clearfix">
+                    <div class="budget__income--text">Income</div>
+                    <div class="right">
+                        <div class="budget__income--value">+ 4,300.00</div>
+                        <div class="budget__income--percentage">&nbsp;</div>
+                    </div>
+                </div>
+                
+                <div class="budget__expenses clearfix">
+                    <div class="budget__expenses--text">Expenses</div>
+                    <div class="right clearfix">
+                        <div class="budget__expenses--value">- 1,954.36</div>
+                        <div class="budget__expenses--percentage">45%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="bottom">
+            <div class="add">
+                <div class="add__container">
+                    <select class="add__type">
+                        <option value="inc" selected>+</option>
+                        <option value="exp">-</option>
+                    </select>
+                    <input type="text" class="add__description" placeholder="Add description">
+                    <input type="number" class="add__value" placeholder="Value">
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+            
+            <div class="container clearfix">
+                <div class="income">
+                    <h2 class="icome__title">Income</h2>
+                    
+                    <div class="income__list">
+                       
+                        <!--
+                        <div class="item clearfix" id="income-0">
+                            <div class="item__description">Salary</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 2,100.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item__description">Sold car</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 1,500.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <div class="expenses">
+                    <h2 class="expenses__title">Expenses</h2>
+                    
+                    <div class="expenses__list">
+                       
+                        <!--
+                        <div class="item clearfix" id="expense-0">
+                            <div class="item__description">Apartment rent</div>
+                            <div class="right clearfix">
+                                <div class="item__value">- 900.00</div>
+                                <div class="item__percentage">21%</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
 
-</div>
-</nav>
-<div class="content">
-  <div class="content__first">
-    <div class="content__first_text">
-      <p class="content__first_text_1"><b>Find a gift for<br> your wife or<br> friend</b></p>
-      <p class="content__first_text_2">Stuggling to find a find a gift for your wife or <br> girlfriend
-      ? No problem !</p>
-      <button type="button" name="button">FIND GIFT NOW</button>
-    </div>
-    <div class="content__first_img">
-<img src="img/Background.jpg" alt="firstcontent">
-    </div>
-  </div>
-</div>
-<div class="content">
-  <div class="content__second">
-    <div class="content__second_img">
-<img src="img/MediaB.png" alt="secondcontent">
-    </div>
-    <div class="content__second_text">
-      <p class="content__second_text_1">How we work</b></p>
-      <p class="content__second_text_2">We've actually already
-      asked hundreds<br> of woman what they want, and made database<br>
-    with a results. All you have to do take own<br> short survey that
-  only takes in seconds, and  our <br>propertary algorithm will
-match you with a few<br>perfect gift options</p>
-      <button type="button" name="button">FIND GIFT NOW</button>
-    </div>
-  </div>
-</div>
-<div class="alonetext">
-  <p style="font-size:35px;text-align:center;">Gift for all Occasions</p>
-  <p style="font-size:18px;text-align:center;">Try own web app to find the best gifts for all occasions</p>
-</div>
-
-<div class="example">
-  <div class="example__first">
-    <img src="img/1.png" alt="first example">
-    <p>BirthDay</p><br><br><br><br>
-    <p>See more></p>
-  </div>
-  <div class="example__first">
-    <img src="img/2.png" alt="second example">
-    <p>Anniversary</p><br><br><br><br>
-    <p>See more></p>
-  </div>
-  <div class="example__first">
-    <img src="img/3.png" alt="third example">
-    <p>Valentin's day</p><br><br><br><br>
-    <p>See more></p>
-  </div>
-  <div class="example__first">
-    <img src="img/4.png" alt="fourth example">
-    <p>Christmas</p><br><br><br><br>
-    <p>See more></p>
-  </div>
-</div>
-
-<div class="ready">
-  <div class="ready__text">
-    <span style="font-size:30px;"><b>Ready to get started?</b><br></span>
-    <span style="font-size:30px;">Sign up or contact us</span>
-  </div>
-  <div class="ready__button">
-    <button type="button" name="button" class="ready__button_1">FIND GIFT NOW</button>
-    <button type="button" name="button"  class="ready__button_2">HOW IT WORK</button>
-  </div>
-</div>
-<div class="alonetext">
-  <p style="font-size:35px;text-align:center;">Own best blogs ever</p>
-  <p style="font-size:18px;text-align:center;">"Try ownblog to find best tips and tricksto select your gift"</p>
-</div>
-
-<div class="mrjohn">
-  <img src="img/Media.png" alt="MrJonh">
-  <div class="mrjohn__text">
-    <p style="font-size:15px">Mr John Doe</p>
-    <p style="font-size:30px">The best way to wish your life</p>
-    <p style="font-size:15px">Read more></p>
-  </div>
-</div>
-<div class="box__main">
-<div class="box__main_1">
-  <div style="padding-left: 60px;">
-  <p style="font-size:20px"><b>Database to find a gift for your<br> girlfriend</b></p><br>
-  <p style="font-size:15px">Lorem ipsum sit amet, consecterur adipsagaf eilt<br>
-  sed do eisum  tempor  incidument  ut labore et dolore</p><br><br>
-  <p style="font-size:15px">Read more></p>
-</div>
-</div>
-<div class="box__main_2">
-  <div style="padding-left: 60px;">
-  <p style="font-size:20px"><b>How Artificial Intelleigence read your mind <br> to find the best gift</b></p><br>
-  <p style="font-size:15px">Lorem ipsum sit amet, consecterur adipsagaf eilt<br>
-  sed do eisum  tempor  incidument  ut labore et dolore</p><br><br>
-  <p style="font-size:15px">Read more></p>
-</div>
-  </div>
-</div>
-
-<div class="menu__under">
-  <div style="display:flex;justify-content: center;">
-<ul class="menu__under_link">
-        <li class="menu__center__menu_link_2"><a href="#">Home</a></li>
-        <li class="menu__center__menu_link_2"><a href="#">About us</a></li>
-        <img src="img/logo.png" alt="logo"class="menu__center_logo">
-        <li class="menu__center__menu_link_2">  <a href="#">Services</a></li>
-        <li class="menu__center__menu_link_2"><a href="#">Blogs</a></li>
-  </div>
-    </ul>
-    <div class="line">
-    </div>
-</div>
-<div class="social">
-<img src="img/face.png" alt="facebook">
-<img src="img/twit.png" alt="twitter">
-<img src="img/ints.png" alt="intstagram">
-<img src="img/you.png" alt="youtube">
-<img src="img/pics.png" alt="picsart">
-</div>
-  </body>
+                        <div class="item clearfix" id="expense-1">
+                            <div class="item__description">Grocery shopping</div>
+                            <div class="right clearfix">
+                                <div class="item__value">- 435.28</div>
+                                <div class="item__percentage">10%</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
 </html>
